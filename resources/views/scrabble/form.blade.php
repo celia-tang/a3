@@ -20,6 +20,7 @@
 
     @endif
 
+    <br><br>
     <form method="get" action="/form"> 
         <label for='word'>Word    </label>
         <input type='text' name='word' id='word'> 
