@@ -6,7 +6,7 @@
     </title>
 
 	<meta charset='utf-8'>
-    <link href="/css/style.css" type='text/css' rel='stylesheet'>
+    <link href="css/style.css" type='text/css' rel='stylesheet'>
 
     @stack('head')
 

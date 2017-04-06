@@ -1,6 +1,6 @@
 
 
-{{-- /resources/views/books/search.blade.php --}}
+{{-- /resources/views/scrabble/form.blade.php --}}
 @extends('layouts.master')
 
 @section('title')
