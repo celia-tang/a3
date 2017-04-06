@@ -12,6 +12,7 @@
 */
 
 Route::get('/form', 'ScrabbleController@search');
+Route::get('/', 'ScrabbleController@search');
 
 Route::get('/debugbar', function() {
 
