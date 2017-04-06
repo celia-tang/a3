@@ -22,26 +22,27 @@
 
     <br><br>
     <form method="get" action="/form"> 
-        <label for='word'>Word    </label>
+        <label>Word    </label>
         <input type='text' name='word' id='word'> 
         <br><br>
 
-        <label for='bonus'>Bonus Points</label><br>
+        <label>Bonus Points</label><br>
         <input type='radio' name='bonus' <?php if (isset($bonus) && $bonus=='none') echo "checked";?> value = 'none' checked> None<br>
         <input type='radio' name='bonus' <?php if (isset($bonus) && $bonus=='double') echo "checked";?> value = 'double'> Double Word<br>
         <input type='radio' name='bonus' <?php if (isset($bonus) && $bonus=='triple') echo "checked";?> value = 'triple'> Triple Word<br>
         <br>
 
-        <label for='bingo'>Bingo</label><br>
+        <label>Bingo</label><br>
         <input type='checkbox' name='bingo' value='true'> Yes 
         <br><br>
 
         <input type='submit' name='submit' value='Submit'>
 
-        </form>
-        
+
         @if($word != null)
         <h2>Points for <em>{{ $word }}</em> : <em>{{ $points }}</em></h2>
         @endif
+
+        </form>
 
 @endsection
