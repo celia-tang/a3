@@ -4,11 +4,10 @@
 @extends('layouts.master')
 
 @section('title')
-    Search
+    Scrabble
 @endsection
 
 @section('content')
-    <h1>Search</h1>
 
     @if(count($errors) > 0)
         <div id="error">
