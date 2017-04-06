@@ -15,7 +15,7 @@
 
 	<header>
 		<h1>Scrabble Points Generator</h1>
-		<img src="images/scrabble.jpg" alt-"scrabble">
+		<img src="images/scrabble.jpg" alt="scrabble">
 	</header>
 
 	<section>
