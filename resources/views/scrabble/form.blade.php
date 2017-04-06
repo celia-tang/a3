@@ -38,6 +38,8 @@
 
         <input type='submit' name='submit' value='Submit'>
 
+        </form>
+        
         @if($word != null)
         <h2>Points for <em>{{ $word }}</em> : <em>{{ $points }}</em></h2>
         @endif
