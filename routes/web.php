@@ -11,14 +11,6 @@
 |
 */
 
-# New route
-Route::get('/example', function () {
-    return 'hello there!';
-});
-
-//Route::get('/{title}', 'ScrabbleController@show');
-
-# /routes/web.php
 Route::get('/form', 'ScrabbleController@search');
 
 Route::get('/debugbar', function() {

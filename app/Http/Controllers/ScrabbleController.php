@@ -9,14 +9,6 @@ class ScrabbleController extends Controller
 {
     // GET
 
-    public function index() {
-        return 'Here are all the books...';
-	}
-
-	public function show($title) {
-        return view('scrabble.show')->with(['title' => $title]);
-    }
-
     public function search(Request $request) {
 
     	$this->validate($request, [
