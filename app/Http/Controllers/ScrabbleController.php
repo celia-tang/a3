@@ -11,9 +11,11 @@ class ScrabbleController extends Controller
 
     public function search(Request $request) {
 
-    	$this->validate($request, [
-        	'word' => 'required|alpha|max:15',
-    	]);
+    	if ($_GET) {
+    		$this->validate($request, [
+        		'word' => 'required|alpha|max:15',
+    		]);
+    	}
 
 	    $wordS = $request->input('word');
 	    $word = strtolower($request->input('word'));
