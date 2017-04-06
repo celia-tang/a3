@@ -14,6 +14,8 @@
 Route::get('/form', 'ScrabbleController@search');
 Route::get('/', 'ScrabbleController@search');
 
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
 Route::get('/debugbar', function() {
 
     $data = Array('foo' => 'bar');
