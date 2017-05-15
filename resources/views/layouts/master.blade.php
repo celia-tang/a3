@@ -2,11 +2,13 @@
 <html>
 <head>
 	<title>
-        Scrabble Points Generator
+        Tasks
     </title>
 
 	<meta charset='utf-8'>
     <link href="css/style.css" type='text/css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     @stack('head')
 
@@ -14,8 +16,7 @@
 <body>
 
 	<header>
-		<h1>Scrabble Points Generator</h1>
-		<img src="images/scrabble.jpg" alt="scrabble">
+		<h1>Tasks To Do</h1>
 	</header>
 
 	<section>
